@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7A95D8"
+    android:orientation="vertical"
+    tools:context=".Nonedata">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="nonedata"
+        android:textSize="23sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="23sp"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="150sp"
+        android:layout_height="50sp"
+        android:layout_gravity="center"
+        android:onClick="back"
+        android:text="back to Main" />
+</LinearLayout>
